@@ -41,7 +41,7 @@ def scroll():
   print ("\nYou open the scroll and see that it was actually holding a small flare gun. A wave of relief rushes over you as you crawl to an open space on the island and fire a round into the sky.")
   print("\nThe helicopter sees your shot and begins to lower. A person helps you into the helicopter, and the pilot rises once again.")
   print("\nYou look out the window and watch the spot you were in just moments before become fully submerged by the tsunami. You are mortified, but you are alive.")
-  ("\n~ YOU WIN ~")
+  print("\n~ YOU WIN ~")
 def climb():
   print ("\n You begin to scale the trunk of the coconut tree, now mutliple stories in the air. Your muscles feel fatigued but the sight of the scroll becoming closer and closer keeps you motivated.")
   print("\nFinally, the scroll is within your reach and you grab for it. As you pull the scroll from its fastened position the branch you are sitting on snaps off, and you hurdle to the ground scroll in hand.") 
@@ -52,7 +52,7 @@ def climb():
   choice6 = input("\n Enter S to open the scroll  or F to make a fire: ")
   while choice6 not in ['S', 's', 'F', 'f']:
     print("\nPlease enter a valid input.\n")
-    choice6 == input("\n Enter S to open the scroll  or F to make a fire: ")
+    choice6 == input("\n Enter S to open the scroll or F to make a fire: ")
   if choice6 == 'S' or choice6 == 's':
     scroll()
   elif choice6 == 'F' or choice6 == 'f':
