@@ -87,7 +87,7 @@ def leavescales():
   elif choice4 == 'F' or choice4 == 'f':
     fire()
 def fish():
-  print ("\n You walk towards the fish and as you get closer you see its shiny gleaming scales. You notice a relatively sharp rock right next to you, picking it up and throwing it at the fish.")
+  print ("\n You walk towards the fish and as you get closer you see its shiny gleaming scales. You notice a sharp rock right next to you. You pick it up and throw it at the fish.")
   print ("\n Good job! You killed it! You crouch down and pick up the fish, admiring it's glimmering coat. After eating the insides you are only left with the scales. Would you like to save these for later usage? They might be useful... ")
   choice2 = input("\n Enter P to pocket the scales, or L to leave them behind: ")
   while choice2 not in ['P', 'p', 'L', 'l']:
